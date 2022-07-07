@@ -14,19 +14,18 @@ body {
 
 /* front --------------------*/
 #front {
-    height: 500px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    height: 35em;
 }
 
 #my-name {
-    display: inline-block;
-    vertical-align: middle;
     font-family: "Copperplate";
     font-size: 10em;
 }
 
 /* about --------------------*/
-
-
 #about .col {
     vertical-align: middle;
 }
@@ -40,6 +39,12 @@ body {
     text-align: left;
 }
 
+/* skill --------------------*/
+#skill table {
+    display: inline-block;
+    border-collapse: separate;
+    border-spacing: 1em 2em;
+}
 
 /* footer --------------------*/
 footer {
