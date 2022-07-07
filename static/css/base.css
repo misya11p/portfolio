@@ -2,14 +2,46 @@ body {
     background-color: rgb(228, 255, 208)
 }
 
+.col {
+    display: inline-block;
+}
+
 .main-block {
     text-align: center;
-    height: 600px;
-    border: 1px solid black;
     margin: 3%;
+    background-color: rgba(255, 255, 255, 0.40);
+}
+
+/* front --------------------*/
+#front {
+    height: 500px;
+}
+
+#my-name {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Copperplate";
+    font-size: 10em;
+}
+
+/* about --------------------*/
+
+
+#about .col {
+    vertical-align: middle;
+}
+
+#about img {
+    width: 15%;
+    padding: 3em;
+}
+
+#about-text {
+    text-align: left;
 }
 
 
+/* footer --------------------*/
 footer {
     text-align: center;
     padding-top: 2%;
@@ -19,4 +51,8 @@ footer {
 footer #links .link {
     display: inline-block;
     margin: 0 5%;
+}
+
+#links img {
+    width: 30px;
 }
