@@ -1,4 +1,4 @@
-let triggerMargin = 500
+let triggerMargin = 500;
 
 var mainBlocks = window.document.getElementsByClassName("main-block");
 var fadeIn = function() {
@@ -9,5 +9,5 @@ var fadeIn = function() {
     }
 };
 
-window.addEventListener('load', fadeIn)
-window.addEventListener('scroll', fadeIn)
+window.addEventListener('load', fadeIn);
+window.addEventListener('scroll', fadeIn);
