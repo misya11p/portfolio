@@ -46,10 +46,15 @@ body {
 }
 
 /* skill --------------------*/
+#skill-text {
+    font-size: 2em;
+}
+
 #skill table {
     display: inline-block;
     border-collapse: separate;
     border-spacing: 1em 2em;
+    font-size: 1.2em
 }
 
 /* works --------------------*/
@@ -105,7 +110,7 @@ body {
     }
 
     .work {
-        width: 384px;
+        width: 320px;
     }
 
     .work-img {
@@ -118,7 +123,7 @@ body {
     }
 
     .work-text {
-        height: 7em;
+        height: 8em;
     }
 }
 
